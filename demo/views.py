@@ -4,4 +4,4 @@ from .models import Index
 
 class HomePageView(ListView):
     model = Index
-    template_name = "Index/home.html"
+    template_name = "demo/home.html"
