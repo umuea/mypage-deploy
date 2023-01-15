@@ -9,7 +9,8 @@
 from django.urls import path
 from . import views
 
-app_name = "main"
+app_name = "demo"
 urlpatterns = [
-    path("", views.main_index, name="main_index"),
+    path("", views.demo_index, name="demo_index"),
+    path("map_pin", views.demo_mappin, name="demo_mappin"),
 ]
